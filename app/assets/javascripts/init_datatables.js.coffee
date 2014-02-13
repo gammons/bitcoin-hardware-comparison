@@ -1,6 +1,7 @@
 $ ->
   $('#table').dataTable
     'aaData': App.items,
+    'bPaginate': false,
     'aoColumns': [
       {sTitle: 'Manufacturer', mData: 'manufacturer'},
       {sTitle: 'Hardware model', mData: 'hardware_model'},
