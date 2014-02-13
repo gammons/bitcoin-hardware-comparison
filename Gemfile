@@ -74,3 +74,5 @@ gem "passenger"
 
 gem 'haml'
 gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'jquery-datatables-rails', git: 'git://github.com/rweng/jquery-datatables-rails.git'
+gem 'lodash-rails'

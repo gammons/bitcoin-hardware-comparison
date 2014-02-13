@@ -24,6 +24,14 @@ GIT
       ransack (~> 1.0)
       sass-rails
 
+GIT
+  remote: git://github.com/rweng/jquery-datatables-rails.git
+  revision: 788a7b24caf8fe58a5493aa3f6a065879a9f752a
+  specs:
+    jquery-datatables-rails (1.12.2)
+      jquery-rails
+      sass-rails
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -127,6 +135,8 @@ GEM
     kaminari (0.15.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    lodash-rails (2.4.1)
+      railties (>= 3.1)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -253,7 +263,9 @@ DEPENDENCIES
   haml
   heroku-deflater
   jbuilder (~> 1.2)
+  jquery-datatables-rails!
   jquery-rails
+  lodash-rails
   passenger
   pg
   pry

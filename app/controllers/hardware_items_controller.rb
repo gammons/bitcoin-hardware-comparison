@@ -1,5 +1,5 @@
 class HardwareItemsController < ApplicationController
   def index
-    @items = HardwareItem.all
+    @items = HardwareItem.all.to_json
   end
 end

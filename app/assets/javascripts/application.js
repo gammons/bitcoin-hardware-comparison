@@ -14,3 +14,6 @@
 //= require jquery_ujs
 //= require_tree .
 //= require init
+//= require dataTables/jquery.dataTables
+//= require dataTables/jquery.dataTables.bootstrap3
+//= require dataTables/jquery.dataTables.responsive
