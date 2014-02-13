@@ -63,6 +63,8 @@ GEM
       activesupport (>= 3.0.0)
     arel (4.0.2)
     atomic (1.1.14)
+    backbone-rails (1.1.0)
+      rails (>= 3.0.0)
     bcrypt-ruby (3.1.2)
     better_errors (1.1.0)
       coderay (>= 1.0.0)
@@ -253,6 +255,7 @@ PLATFORMS
 DEPENDENCIES
   activeadmin!
   anjlab-bootstrap-rails!
+  backbone-rails
   better_errors
   binding_of_caller
   capybara

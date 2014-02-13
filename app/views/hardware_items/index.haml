@@ -1,8 +1,20 @@
 %h1 Bitcoin Mining Hardware Comparison
+
 =render "top_ad"
 
-%table#table.table.table-striped.table-bordered
+#data
+  .row
+    .col-md-12
+      %button.btn.compare Compare selections
+  .row
+    .col-md-12
+      %table.table.table-striped.table-bordered
 
 :javascript
   App.items = #{@items};
+  $(function() {
+    tv = new App.TableView();
+    tv.render();
+  });
+
 

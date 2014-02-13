@@ -1,0 +1,12 @@
+%h1 Comparing miners
+.row
+  .col-md-12
+    %table.table.table-striped.table-bordered
+
+:javascript
+  App.items = #{@items};
+  $(function() {
+    cv = new App.CompareView();
+    cv.render();
+  });
+
