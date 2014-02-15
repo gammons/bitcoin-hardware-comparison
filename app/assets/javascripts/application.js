@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require underscore
 //= require backbone
+//= require mustache
 //= require init
 //= require_tree .
 //= require dataTables/jquery.dataTables
